@@ -1,4 +1,4 @@
-package de.neusta.notebookjava.domain.note;
+package de.neusta.notebookjava.domain;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

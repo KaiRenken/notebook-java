@@ -1,10 +1,10 @@
-package de.neusta.notebookjava.infrastructure.note.rest;
+package de.neusta.notebookjava.infrastructure.rest;
 
-import de.neusta.notebookjava.application.note.NoteCreation;
-import de.neusta.notebookjava.domain.note.Note;
-import de.neusta.notebookjava.domain.note.NoteRepository;
-import de.neusta.notebookjava.infrastructure.note.rest.model.CreateNoteDto;
-import de.neusta.notebookjava.infrastructure.note.rest.model.ReadNoteDto;
+import de.neusta.notebookjava.application.NoteCreation;
+import de.neusta.notebookjava.domain.Note;
+import de.neusta.notebookjava.domain.NoteRepository;
+import de.neusta.notebookjava.infrastructure.rest.model.CreateNoteDto;
+import de.neusta.notebookjava.infrastructure.rest.model.ReadNoteDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

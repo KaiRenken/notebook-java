@@ -1,4 +1,4 @@
-package de.neusta.notebookjava.infrastructure.note.rest.model;
+package de.neusta.notebookjava.infrastructure.rest.model;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

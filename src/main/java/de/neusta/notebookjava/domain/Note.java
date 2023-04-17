@@ -1,4 +1,4 @@
-package de.neusta.notebookjava.domain.note;
+package de.neusta.notebookjava.domain;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

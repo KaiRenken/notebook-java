@@ -1,6 +1,6 @@
-package de.neusta.notebookjava.application.note;
+package de.neusta.notebookjava.application;
 
-import de.neusta.notebookjava.domain.note.NoteRepository;
+import de.neusta.notebookjava.domain.NoteRepository;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;

@@ -1,7 +1,7 @@
-package de.neusta.notebookjava.infrastructure.note.repository;
+package de.neusta.notebookjava.infrastructure.repository;
 
-import de.neusta.notebookjava.domain.note.Note;
-import de.neusta.notebookjava.domain.note.NoteRepository;
+import de.neusta.notebookjava.domain.Note;
+import de.neusta.notebookjava.domain.NoteRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

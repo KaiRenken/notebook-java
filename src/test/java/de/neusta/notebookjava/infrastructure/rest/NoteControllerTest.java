@@ -1,7 +1,7 @@
-package de.neusta.notebookjava.infrastructure.note.rest;
+package de.neusta.notebookjava.infrastructure.rest;
 
-import de.neusta.notebookjava.application.note.NoteCreation;
-import de.neusta.notebookjava.domain.note.NoteRepository;
+import de.neusta.notebookjava.application.NoteCreation;
+import de.neusta.notebookjava.domain.NoteRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

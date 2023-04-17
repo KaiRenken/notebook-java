@@ -1,6 +1,6 @@
 package de.neusta.notebookjava.testdatafactories;
 
-import de.neusta.notebookjava.domain.note.Note;
+import de.neusta.notebookjava.domain.Note;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

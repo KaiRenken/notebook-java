@@ -1,4 +1,4 @@
-package de.neusta.notebookjava.infrastructure.note.repository;
+package de.neusta.notebookjava.infrastructure.repository;
 
 import org.junit.jupiter.api.Test;
 
