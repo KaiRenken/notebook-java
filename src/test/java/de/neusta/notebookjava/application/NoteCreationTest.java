@@ -9,6 +9,7 @@ import java.time.temporal.ChronoUnit;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.within;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 
 class NoteCreationTest {
 
@@ -25,5 +26,7 @@ class NoteCreationTest {
         assertThat(result.getId()).isNotNull();
         assertThat(result.getCreationDate()).isCloseTo(LocalDateTime.now(), within(1, ChronoUnit.SECONDS));
         assertThat(result.getContent()).isEqualTo("test-content");
+
+        verify(noteRepositoryMock).store(result);
     }
 }
