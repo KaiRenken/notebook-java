@@ -17,8 +17,10 @@ public class NoteRepositoryImpl implements NoteRepository {
     }
 
     @Override
-    public void store(final Note note) {
-        noteJpaRepository.save(mapToEntity(note));
+    public Note store(final Note note) {
+        return mapToDomain(
+                noteJpaRepository.save(mapToEntity(note))
+        );
     }
 
     @Override

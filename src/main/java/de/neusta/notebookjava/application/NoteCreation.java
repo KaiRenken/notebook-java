@@ -16,8 +16,6 @@ public class NoteCreation {
     public Note createNote(final String content) {
         final var createdNote = new Note(content);
 
-        noteRepository.store(createdNote);
-
-        return createdNote;
+        return noteRepository.store(createdNote);
     }
 }

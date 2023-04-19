@@ -7,7 +7,7 @@ import java.util.List;
 @Repository
 public interface NoteRepository {
 
-    void store(final Note note);
+    Note store(final Note note);
 
     List<Note> findAll();
 }

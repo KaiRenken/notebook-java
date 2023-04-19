@@ -21,8 +21,11 @@ class NoteRepositoryImplTest extends AbstractDatabaseTest {
     void storeNote() {
         final var noteToStore = aTestNote().build();
 
-        noteRepositoryImpl.store(noteToStore);
+        final var result = noteRepositoryImpl.store(noteToStore);
 
+        assertThat(result.getId()).isEqualTo(noteToStore.getId());
+        assertThat(result.getCreationDate()).isEqualTo(noteToStore.getCreationDate());
+        assertThat(result.getContent()).isEqualTo(noteToStore.getContent());
         assertThat(noteJpaRepository.count()).isEqualTo(1);
 
         final var storedNote = noteJpaRepository.findAll().get(0);
